@@ -8,7 +8,7 @@ Copyright (c) 2025 Anurag Parashuram
 
 1. **Definitions**
    - "The Project" refers to all files, code, designs, and content related to the Sakha Learning Centers website.
-   - "The Author" refers to [Your Full Name], the copyright holder of this Project.
+   - "The Author" refers to Anurag Parashuram, the copyright holder of this Project.
 
 2. **Permissions**
    - You may view, fork, and modify this Project for personal, educational, and non-commercial purposes only.
@@ -20,7 +20,7 @@ Copyright (c) 2025 Anurag Parashuram
    - You may NOT remove or alter any copyright notices, attributions, or license information from the Project.
 
 4. **Obtaining Consent**
-   - To request permission for commercial use or distribution, contact the Author at [your email address].
+   - To request permission for commercial use or distribution, contact the Author at ay953584@gmail.com
    - Any consent granted by the Author must be in writing and specify the permitted use case.
 
 5. **Enforcement**
