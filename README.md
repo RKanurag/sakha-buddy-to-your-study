@@ -39,12 +39,12 @@ This project is proprietary and subject to strict usage limitations. This reposi
 
 For inquiries regarding usage permissions or other matters related to this project, please contact:
 
-- **Name**: [Your Full Name]
-- **Email**: [your.email@example.com]
+- **Name**: Anurag Parashuram
+- **Email**: ay953584@gmail.com
 
 ## Copyright
 
-© 2025 [Your Full Name]. All rights reserved.
+© 2025 Anurag Parashuram. All rights reserved.
 
 ---
 
