@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakha: Buddy to Your Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon1.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="favicon1.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation with centered animated logo -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <!-- Hamburger menu for mobile -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Left navigation links -->
+            <ul class="nav-links">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">The Solution</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Centered animated logo using wrapper for better positioning -->
+            <div class="logo-wrapper">
+                <a href="#" class="logo-animated">Sakha</a>
+            </div>
+            
+            <!-- Right navigation items -->
+            <div class="nav-right">
+                <a href="#contact" class="nav-cta">Get Started</a>
+                <a href="#" class="share-btn">Share</a>
+            </div>
+            
+            <!-- Mobile menu overlay -->
+            <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+            
+            <!-- Mobile menu -->
+            <div class="mobile-menu" id="mobile-menu">
+                <ul class="mobile-menu-links">
+                    <li><a href="#problem">The Problem</a></li>
+                    <li><a href="#solution">The Solution</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-cta">
+                    <a href="#contact" class="nav-cta">Get Started</a>
+                    <a href="#" class="share-btn">Share</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header without logo (now in navbar) -->
+    <header>
+        <div class="container">
+            <div class="tagline">
+                <div class="tagline-large">Buddy to Your Study</div>
+                <div class="tagline-subtitle">Making learning accessible, efficient, and enjoyable for every student</div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Section 1: The Problem -->
+        <section id="problem">
+            <div class="container">
+                <h2 class="section-title">The Problem</h2>
+                <div class="section-content">
+                    <div class="text-content">
+                        <p>Students today face significant challenges with traditional learning. Long commutes in heavy traffic, carrying heavy school bags, and studying in environments that aren't optimized for learning all contribute to stress and inefficiency.</p>
+                        <p>The physical strain of carrying textbooks and materials, combined with time wasted in transit, leaves students exhausted before they even begin to study. This affects not only their academic performance but also their overall well-being.</p>
+                        <p>The current educational journey is unnecessarily difficult, and students deserve a better, more accessible solution that adapts to their needs.</p>
+                    </div>
+                    <div class="visual-content">
+                        <div class="image-placeholder" id="problem-image">
+                            <img src="problem.svg" alt="Student with heavy bag in traffic - The Problem" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Connection line -->
+        <div class="connection-line"></div>
+        
+        <!-- Section 2: The Solution -->
+        <section id="solution">
+            <div class="container">
+                <h2 class="section-title">The Solution</h2>
+                <div class="section-content">
+                    <div class="visual-content">
+                        <div class="image-placeholder" id="solution-image">
+                            <img src="solution.svg" alt="Happy student walking to Sakha center - The Solution" />
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <p>Introducing Sakha - your dedicated study buddy and local learning companion. We've created nearby learning centers where students can walk in, drop their heavy bags, and engage in focused learning without the stress of commuting.</p>
+                        <p>Our centers are strategically located within walking distance from residential areas, eliminating lengthy travel times and traffic headaches. Students arrive fresh and energized, ready to absorb knowledge in a purpose-built environment designed for effective learning.</p>
+                        <p>Sakha provides all necessary study materials on-site, allowing students to travel light. Our centers are equipped with the latest learning resources, comfortable spaces, and expert guidance to make studying enjoyable and efficient.</p>
+                        <a href="#contact" class="cta-button">Find a Center Near You</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Students Say</h2>
+                <div class="testimonial-cards">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Since joining Sakha, I've saved over an hour of commute time every day. I'm less tired and more focused during my study sessions.</p>
+                        <p class="testimonial-author">Priya Sharma</p>
+                        <p class="testimonial-role">Science Student, Class 11</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">The environment at Sakha is perfect for concentration. I've improved my grades significantly without carrying heavy books everywhere.</p>
+                        <p class="testimonial-author">Rahul Mehra</p>
+                        <p class="testimonial-role">Engineering Student</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">As a parent, I love that my daughter can walk to her Sakha center. It's safe, convenient, and has transformed her attitude toward studying.</p>
+                        <p class="testimonial-author">Anita Reddy</p>
+                        <p class="testimonial-role">Parent</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>Interested in learning more about Sakha or finding a center near you? We're here to help!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3 class="contact-title">Visit Us</h3>
+                        <p class="contact-detail">123 Education Lane<br>Lucknow, Uttar Pradesh</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3 class="contact-title">Call Us</h3>
+                        <p class="contact-detail">+91 700721####<br>Mon-Sat, 9am-6pm</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <h3 class="contact-title">Email Us</h3>
+                        <p class="contact-detail"><a href="mailto:hello@sakhastudy.in">hello@sakhastudy.in</a><br>We respond within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">The Solution</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <p class="copyright">© 2025 Sakha Learning Centers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
